@@ -1,0 +1,7 @@
+blue => rgb(222,240,252)
+
+facebook => rgb(59, 89, 152)
+
+twitter => rgb(29, 172, 237)
+
+google => rgb(219, 74, 57)

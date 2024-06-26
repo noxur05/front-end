@@ -1,40 +1,104 @@
-/* hemme taglere täsir edýär */
-
 body {
-    color: #333333;
-    margin: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #eeeeee;
 }
 
-/* text-red ulanylan hemme täglere täsir edýär */
-
-.text-green {
-    color: darkgreen;
+.header {
+    height: 80px;
+    background-color: #999999;
 }
 
-.text-orange {
-    color: darkorange;
+/*  */
+
+.main {
+    max-width: 600px;
+    padding: 8px 16px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 0 0 4px 4px;
 }
 
-.text-red {
-    color: darkred;
+.main .title {
+    font-size: 28px;
+    margin-bottom: 12px;
 }
 
-.text-blue {
-    color: darkblue;
+.main .sub-title {
+    font-size: 18px;
+    margin-bottom: 12px;
 }
 
-.bg-green {
-    background-color: darkgreen;
+.main .p {
+    margin-bottom: 8px;
 }
 
-.bg-orange {
-    background-color: darkorange;
+.main .note {
+    padding: 8px 16px;
+    background-color: rgb(222, 240, 252);
+    border: 1px solid #cccccc;
+    border-radius: 4px;
 }
 
-.bg-red {
-    background-color: darkred;
+/*  */
+
+.footer {
+    max-width: 600px;
+    padding: 8px 16px;
+    margin: 10px auto 20px auto;
 }
 
-.bg-blue {
-    background-color: darkblue;
+.footer .title {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.footer .info {
+    margin-bottom: 8px;
+}
+
+.btn {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    padding: 4px 8px;
+    width: 80%;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.btn-facebook {
+    background-color: rgb(59, 89, 152);
+}
+
+.btn-twitter {
+    background-color: rgb(29, 172, 237);
+}
+
+.btn-google {
+    background-color: rgb(219, 74, 57);
+}
+
+.btn-facebook:hover {
+    background-color: rgb(34, 64, 127);
+}
+
+.btn-twitter:hover {
+    background-color: rgb(4, 147, 212);
+}
+
+.btn-google:hover {
+    background-color: rgb(194, 49, 32);
+}
+
+/*  */
+
+.row {
+    display: flex;
+}
+
+.col {
+    width: 50%;
 }

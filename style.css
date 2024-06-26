@@ -1,9 +1,40 @@
-/* hello world */
+/* hemme taglere täsir edýär */
 
-h3 {
+body {
+    color: #333333;
+    margin: 16px;
+}
+
+/* text-red ulanylan hemme täglere täsir edýär */
+
+.text-green {
     color: darkgreen;
 }
 
-p {
-    color: gray;
+.text-orange {
+    color: darkorange;
+}
+
+.text-red {
+    color: darkred;
+}
+
+.text-blue {
+    color: darkblue;
+}
+
+.bg-green {
+    background-color: darkgreen;
+}
+
+.bg-orange {
+    background-color: darkorange;
+}
+
+.bg-red {
+    background-color: darkred;
+}
+
+.bg-blue {
+    background-color: darkblue;
 }
